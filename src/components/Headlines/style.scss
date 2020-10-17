@@ -44,6 +44,7 @@
 				& img {
 					width: 100px;
 					height: 100px;
+					object-fit: cover;
 					margin-bottom: -5px;
 					border-radius: 50%;
 					border: 3px solid white;
@@ -56,6 +57,7 @@
 					background-color: transparent;
 					color: rgb(214, 70, 70);
 					cursor: pointer;
+					outline: none;
 				}
 			}
 

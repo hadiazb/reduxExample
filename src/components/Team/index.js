@@ -2,19 +2,29 @@ import React from 'react';
 import { connect } from 'react-redux';
 import * as addPlayerHeadline from '../../actions/addPlayerHeadline';
 import * as addPlayerAlternates from '../../actions/addPlayerAlternates';
+import * as reStart from '../../actions/reStart';
 import './style.scss';
 import { IoMdRemoveCircle } from 'react-icons/io';
-import { AiFillPlusCircle } from 'react-icons/ai';
+import {
+	AiFillPlusCircle,
+	AiOutlineReload,
+} from 'react-icons/ai';
 
 const Team = (props) => {
 	const {
 		players,
 		addPlayerHeadline,
 		addPlayerAlternates,
+		reStart,
 	} = props;
 	return (
 		<section className='team'>
-			<h2 className='team__title'>Team</h2>
+			<div className='team__title'>
+				<h2>Team</h2>
+				<button onClick={() => reStart()}>
+					<AiOutlineReload size='25' />
+				</button>
+			</div>
 			<div className='team__content'>
 				{players.map((player) => (
 					<article
@@ -45,6 +55,7 @@ const mapStateToProps = (reducers) => {
 const mapDispatchToProps = {
 	...addPlayerAlternates,
 	...addPlayerHeadline,
+	...reStart,
 };
 
 export default connect(
