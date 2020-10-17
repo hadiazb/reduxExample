@@ -107,4 +107,46 @@ export const Data = [
 		foto:
 			'https://firebasestorage.googleapis.com/v0/b/colombiancycling-6eec5.appspot.com/o/FotosCiclistas%2FrodrigoContreras.jpg?alt=media&token=e4acf58c-8468-4d18-8d86-342c666ad899',
 	},
+	{
+		id: 19,
+		nombre: 'Winner Anacona',
+		foto:
+			'https://firebasestorage.googleapis.com/v0/b/colombiancycling-6eec5.appspot.com/o/FotosCiclistas%2Fwinner.jpeg?alt=media&token=67c025dc-e73f-4d63-bec4-dc5458c6de9e',
+	},
+	{
+		id: 20,
+		nombre: 'S Buitrago',
+		foto:
+			'https://firebasestorage.googleapis.com/v0/b/colombiancycling-6eec5.appspot.com/o/FotosCiclistas%2FsantiagoBuitrago.jpeg?alt=media&token=641b9c16-9aed-4d81-b8cb-be318c0c41bf',
+	},
+	{
+		id: 21,
+		nombre: 'Ramiro Sosa',
+		foto:
+			'https://firebasestorage.googleapis.com/v0/b/colombiancycling-6eec5.appspot.com/o/FotosCiclistas%2FivanRamiro.jpg?alt=media&token=767a8612-d2f9-4f05-b164-aa3c6454c5f2',
+	},
+	{
+		id: 22,
+		nombre: 'Higuita',
+		foto:
+			'https://firebasestorage.googleapis.com/v0/b/colombiancycling-6eec5.appspot.com/o/FotosCiclistas%2Fhiguita.jpeg?alt=media&token=90e80898-6777-456c-b42a-d19ac0d77478',
+	},
+	{
+		id: 23,
+		nombre: 'Dayer Quintana',
+		foto:
+			'https://firebasestorage.googleapis.com/v0/b/colombiancycling-6eec5.appspot.com/o/FotosCiclistas%2Fdayer.jpeg?alt=media&token=434ca23a-589a-42fd-ac87-3b8d9d5a0626',
+	},
+	{
+		id: 24,
+		nombre: 'Brandold Rivera',
+		foto:
+			'https://firebasestorage.googleapis.com/v0/b/colombiancycling-6eec5.appspot.com/o/FotosCiclistas%2Fbrandold.jpg?alt=media&token=f1877e68-ffab-425a-ad58-c91cdde622aa',
+	},
+	{
+		id: 25,
+		nombre: 'Alvaro Hodeg',
+		foto:
+			'https://firebasestorage.googleapis.com/v0/b/colombiancycling-6eec5.appspot.com/o/FotosCiclistas%2FalvaroHodeg.jpeg?alt=media&token=61e1d2d6-1545-457d-ac94-288dcf3dd2f7',
+	},
 ];
